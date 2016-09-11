@@ -16,7 +16,7 @@ Google Apps
 
 5.pip install --upgrade google-api-python-client
 
-6.Edit gaps.conf 
+6.Edit /script/GAPS/gaps.conf 
 
 
 Office 365
@@ -29,7 +29,7 @@ Office 365
 
 4.python setup.py install
 
-5.Replace username and password in officepassword.py and replace your domain
+5.Replace username and password in /script/office/officepassword.py and replace your domain
 
 Add this crontab for re-try send passwords again:
 ====
@@ -37,4 +37,4 @@ Add this crontab for re-try send passwords again:
 
 */5 * * * * /usr/bin/python /script/try_again_google.py
 
-posthock.sh the script can be added to self-service-password (http://ltb-project.org/wiki/documentation/self-service-password)
+/script/posthock.sh the script can be added to self-service-password (http://ltb-project.org/wiki/documentation/self-service-password)
