@@ -4,14 +4,14 @@ Script modify password googleapps and office365
 Installation
 ======
 
-Google
+Google Apps
 =========
-Install python-pip
-Create a project in Google Developer Console and ad Admin SDK permission
-Create a JSON config for you project in Google Developer Console
-Download the json config from the Google Developer Console to your samba machine and replace json
-pip install --upgrade google-api-python-client
-Edit gaps.conf 
+1.Install python-pip
+2. Create a project in Google Developer Console and ad Admin SDK permission
+3.Create a JSON config for you project in Google Developer Console
+4.Download the json config from the Google Developer Console to your samba machine and replace json
+5.pip install --upgrade google-api-python-client
+6.Edit gaps.conf 
 
 add crontab
 ====
