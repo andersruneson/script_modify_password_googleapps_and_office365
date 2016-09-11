@@ -17,9 +17,11 @@ Google Apps
 
 4.Download the json config from the Google Developer Console to your samba machine and replace json
 
-5.pip install --upgrade google-api-python-client
+5.If you are having issues with Google Permissions - you might need to add domain-wide authority to your service Delegate domain-wide authority to your service account
 
-6.Edit /script/GAPS/gaps.conf 
+6.pip install --upgrade google-api-python-client
+
+7.Edit /script/GAPS/gaps.conf 
 
 
 Office 365
