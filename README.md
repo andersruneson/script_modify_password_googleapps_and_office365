@@ -32,9 +32,8 @@ Office 365
 
 5.Replace username and password in officepassword.py and replace your domain
 
+Add this crontab for re-try send passwords again:
 ====
-add this crontab for re-try send passwords again:
-
 */5 * * * * /usr/bin/python /script/try_again_O365.py
 
 */5 * * * * /usr/bin/python /script/try_again_google.py
