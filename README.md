@@ -1,1 +1,4 @@
-# script_modify_password_googleapps_and_office365
+add this crontab for re-try send passwords again:
+
+*/5 * * * * /usr/bin/python /script/try_again_O365.py
+*/5 * * * * /usr/bin/python /script/try_again_google.py
