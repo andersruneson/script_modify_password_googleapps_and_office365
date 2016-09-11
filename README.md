@@ -19,6 +19,19 @@ Google Apps
 6.Edit gaps.conf 
 
 Add crontab for re-try error
+
+Office 365
+=========
+1.Create your domaine in "windows azure"
+
+2.git clone git://github.com/Azure/azure-sdk-for-python.git
+
+3.cd azure-sdk-for-python
+
+4.python setup.py install
+
+5.Replace username and password in officepassword.py and replace your domain
+
 ====
 add this crontab for re-try send passwords again:
 
