@@ -18,7 +18,6 @@ Google Apps
 
 6.Edit gaps.conf 
 
-Add crontab for re-try error
 
 Office 365
 =========
