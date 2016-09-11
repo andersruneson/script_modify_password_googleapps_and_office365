@@ -1,6 +1,9 @@
 Script modify password googleapps and office365
 ====
 
+Place the "script" and "password" to the / folder .
+
+
 Installation
 ======
 
