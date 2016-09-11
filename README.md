@@ -8,7 +8,7 @@ Google Apps
 =========
 1.Install python-pip
 
-2. Create a project in Google Developer Console and ad Admin SDK permission
+2.Create a project in Google Developer Console and ad Admin SDK permission
  
 3.Create a JSON config for you project in Google Developer Console
 
